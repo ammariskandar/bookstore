@@ -6,6 +6,7 @@ const router = Router();
 
 // registered users
 router.put("/books/:id/reviews", authenticate, reviewControllers.addReview);
+router.post("/books/:id/reviews", authenticate, reviewControllers.addReview);
 router.delete("/books/:id/reviews", authenticate, reviewControllers.deleteReview);
 
 // general users

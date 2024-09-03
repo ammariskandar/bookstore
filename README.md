@@ -3,6 +3,7 @@ Created by Ammar Iskandar for the purposes of IBM Coursera Course.
 
 File Structure:
 
+```
 Online_Book_Review_Application-main
 ├─ .env -> Environment Setup
 ├─ .gitignore -> Telling Github to ignore node_modules and .env
